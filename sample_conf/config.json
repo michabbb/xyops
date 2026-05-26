@@ -103,6 +103,7 @@
 	"multi": {
 		"list_url": "https://api.github.com/repos/pixlcore/xyops/releases",
 		"cache_ttl": 3600,
+		"enable_version_checks": true,
 		"protocol": "ws:",
 		"connect_timeout_sec": 3,
 		"master_timeout_sec": 10,
@@ -116,6 +117,7 @@
 		"base_url": "https://github.com/pixlcore/xysat/releases",
 		"image": "ghcr.io/pixlcore/xysat",
 		"version": "latest",
+		"enable_version_checks": true,
 		"cache_ttl": 3600,
 		"config": { 
 			"port": 5522,
@@ -141,6 +143,7 @@
 		"enabled": true,
 		"metadata_url": "https://raw.githubusercontent.com/pixlcore/xyops-marketplace/refs/heads/main/marketplace.json",
 		"repo_url_template": "https://raw.githubusercontent.com/[id]/refs/tags/[version]/[filename]",
+		"enable_version_checks": true,
 		"ttl": 3600
 	},
 	
