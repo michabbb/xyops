@@ -657,6 +657,11 @@ This number caps the number of rendered table rows client-side to keep the UI re
 
 Upper bound for items shown in menus and dropdowns (default: `1000`).
 
+### client.api_timeout_ms
+<!-- Title: API Timeout (milliseconds) -->
+
+This number sets the API timeout for client requests in milliseconds (default: `10000`).
+
 ### client.max_job_output
 <!-- Title: Max Job Output Display -->
 
